@@ -1,0 +1,28 @@
+<%!int a = 25;%>
+
+	<!-- texto del comentario visible -->
+
+
+	<jsp:declaration>double b = 5;
+
+	public double sumar(double a, double b) {
+		return a + b;
+	}</jsp:declaration>
+
+	<%
+		out.println(a + b);
+	%>
+	
+	<jsp:scriptlet>
+	
+	</jsp:scriptlet>
+	
+	<br> La suma es
+	<%
+		out.println(sumar(10, 35));
+	%>
+	
+	<br>
+	Esta es una suma usando expresiones
+
+	<%=a + b%>
