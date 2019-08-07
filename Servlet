@@ -1,0 +1,12 @@
+    PrintWriter out;
+		out = response.getWriter();
+    
+		response.setContentType("text/html");
+				
+		out.println("<html>");
+		out.println("<head><title>Mi Primer Servlet </title></head>");
+		out.println("<body>");
+		out.println("<h1>Este es mi Primer Servlet</h1>");	
+		
+		out.println("<p>Bienvenido al curso de Java Web</p>");
+		out.println("</body></html>");
