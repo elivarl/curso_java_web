@@ -1,5 +1,5 @@
 <h1>Login</h1>
-	<form action="servlet">
+	<form action="index" metohod="post">
 		<table>
 			<tr>
 				<td>Usuario</td>
@@ -8,7 +8,7 @@
 
 			<tr>
 				<td>Clave</td>
-				<td><input type="password" name="contrasena"></td>
+				<td><input type="password" name="pass"></td>
 			</tr>
 
 		</table>
