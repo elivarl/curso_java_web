@@ -3,5 +3,8 @@
         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
         version="2.1">
-          ...
+           <property name="javax.persistence.jdbc.driver" value="Database Driver Name" />
+            <property name="javax.persistence.jdbc.url" value="Database Url" />
+            <property name="javax.persistence.jdbc.user" value="Database Username" />
+            <property name="javax.persistence.jdbc.password" value="Database Password" />
       </persistence>
