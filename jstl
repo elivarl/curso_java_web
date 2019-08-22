@@ -1,0 +1,10 @@
+<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+
+<dependency>
+    <groupId>jstl</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
