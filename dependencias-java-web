@@ -1,9 +1,10 @@
-<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+	<!-- https://mvnrepository.com/artifact/jstl/jstl -->
 
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
@@ -19,7 +20,22 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>5.3.1.Final</version>
+			<scope>compile</scope>
 		</dependency>
 
-
-
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.9-rc</version>
+			<scope>runtime</scope>
+		</dependency>
+	
+****************************************************************************************************************
+Se puede probar tambien con 
+<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.46</version>
+			<scope>runtime</scope>
+		</dependency>
