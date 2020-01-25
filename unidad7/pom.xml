@@ -5,3 +5,11 @@
 			<version>8.0</version>
 			<scope>provided</scope>
 		</dependency>
+
+<!-- https://mvnrepository.com/artifact/hibernate-core/hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.3.6.Final</version>
+			<scope>provided</scope>
+		</dependency>
